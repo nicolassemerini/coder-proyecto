@@ -1,0 +1,89 @@
+/* sintaxis de css| selector puede ser una etiqueta de Html
+"propiedad es un atributo que le vamos a dar a las etiqeutas
+
+
+selector{
+    propiedad: valor;
+}
+*/
+
+/* el reseteo| se ultiliza el selector universal * | le saco el margen y relleno con 2 propiedades que se llaman margin y padding| la posibilidad de poder decidir nosotros mismos los espacios entre los elementos*/
+*{margin: 0;
+padding: 0;}
+html {
+    font-size: 20px;
+    /*defino la unidad de "em" que seria 20 px*/
+
+}
+h1 {
+    color:aquamarine
+}
+/* para individializar los elementos de html en css puedo usar clases*/
+.parrafo{
+    /*color del texto*/
+
+    color: rebeccapurple;
+    text-align: right;
+    text-decoration: overline;
+    font-size: 80;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* unidades de medida*/
+/* unidades absolutas| en dw decimos que son absolutas por que no cambian su tamaño en distintias pantallas
+cm - pt- mt */
+/* unidades relativas| en dw son las que se adaptan al tipo de pantalla
+px% em remvh vw
+*/
+.parrafo-2{
+    font-size: 40px;  
+}
+#pie-pagina{
+    background-color: lightcoral;
+    width: 50%;
+}
+/* rem | relativa al elemento root| root es la medida general que nos da el navegador |normalmente son 16 px*/
+a{
+    font-size: 4rem;
+/* seria 16 x 4*/}
+
+/* em| es directamente proporcional al elemento HTML o : roo que son definidos por nosostros mismos */
+
+/* parrafos, titulos , enlances suelen tener px en el font-size
+las imagenes y videos , o multimedia suelen utilizar %, vh o vw
+las propiedadesdes de la caja , margin y padding , pueden usar rem o em*/
+a{
+    font-size: 2em; /* seria 2 x 20 */
+}
+
+
+
+
+
+/* ID | # delante del nombre del ID */
+#titulo{
+    /*color del fondo*/
+
+    background-color:blueviolet;
+}
+/* la diferencia entre class y ID es que class se puede reutilizar pero ID no 
+
+ID es como un dni , class es como un atributo
+
+ID = para vincular enlaces, indentificar una seccion completa o javascrip u otros lenguajes
+
+class= lo vamos a usar todo el tiempo
+*/
+body{
+    background-image: url(pages/caballo.jpg);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+

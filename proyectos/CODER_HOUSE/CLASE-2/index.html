@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 2</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">inicio</a>
+
+                </li>
+                <li><a href="rogelio/buendia.html">buen dia</a></li>
+                <li><a href="rogelio/trabajo.html">ir trabajo</a></li>
+                <li><a href="rogelio/trabajo.html#trabajos">ir a trabajos</a></li>
+
+                
+                
+            
+                
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--con el atributo targer con el valor "blank"abre el enlace en una nueva pestaña-->
+    <!--enlaces absolutos , son los que redireccionan al usuario a un sitio externo a nuestro proyecto-->
+    <a href="https://www.google.es/"
+    target="blank"> ver mas</a><br>
+
+    <!--emñaces relativos, redirecciona al usuario a un archivo dentro de mi protecto-->
+
+    <a href="rogelio/buendia.html">otro archivo
+    </a> <br>
+
+    <a href="rogelio/trabajo.html">ir a trabajo</a><br>
+
+    <!-- para ir a un archivo que esta mas atras se usa .. para ir mas atras ../.. asi retrodeciendo hasta donde se quiera llegar-->
+
+    <!--enlaces internos, redirecciona al usuario a una seccion de este mismo archivo--> 
+    <a href="#PLANES"><!-- # = Simbolo de los ID en programacion-->
+        Inscribirme
+    </a>
+
+    <!--tengo que darle un indentificador unico|ID = un atribudo que se puede usar en todas las etiquetas-->
+
+    <section id="PLANES">
+        <h2> PLANES</h2>
+        <p>odsfiosdjfisdfsdfsdifjisdjfiosdjfiosdjfoisdjfisjdfijsiodfj osidjfosdifjosidfjosid jfosidfj soidfj soidfj sdiofj sodifjs doifj sdoifj </p>
+    </section><br>
+    <!--Enlace "relaterno" es una combinacion de los enlaces externos e internos-->
+
+    <br>
+    <a href="rogelio/trabajo.html#trabajos">ir a trabajo articulo</a>
+
+    <!--elemetos multimedia-->
+    <!-- imagenes
+    src = Source = ¿donde esta la imagen que queres mostrar en tu sitio?-->
+    <!--"alt"= texto alternativo = descripcion del elemento multimedia
+    1-si la tura de la imagen se rompe se muestra el texto de que trataba la imagen
+2- pocisionamiento de la imagen, cuando el usuario busca por imagenes en el navegador, segun la coincidencia del texto alt, la posicion de tu busqueda
+3- accesibilidad= sistema de apoyo les lee la descripcion del texto alternativo-->
+   <br>
+    <img src="imagenes/caballo.jpg" alt="caballo ,foto del logo del proyecto ">
+    <!-- mapa | "iframe"= nos da un extracto del codigo html de otro sitio-->
+   <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9307185297635!2d-58.717834784899!3d-34.656452567797054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbfeb390f1a6f%3A0xf0efe4ac5397b39c!2sMedrano%201056%2C%20B1722IVU%20Merlo%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2ses!4v1679061609651!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <!--videos-->
+    <!-- o con la etiqueta "videos" y poner una ruta local-->
+    <video src="blabla"></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uLaCkJHkKqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--audio-->
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO2fgfey?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <audio src="direccion" controls></audio>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#orejano {
+ 
+position: absolute;
+height: 384px;
+left: 39.31%;
+right: 58.54%;
+top: 115px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+
+.caballo {
+   
+position: absolute;
+width: 357px;
+height: 502px;
+left: 541px;
+top: 47px;
+
+   
+}
+.login{
+    padding: 60px 50%;
+
+}

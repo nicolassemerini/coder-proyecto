@@ -1,0 +1,19 @@
+CLase 1
+https://whimsical.com/
+pag para armar un diseño muy basico de la pagina
+etiqueta <header> es para trabajar en el encabezado de la pagina
+<nav> define todo lo que es navegable
+<ul></ul> lista desordenada
+<ol></ol> lista ordenada
+<li></li> siempre se pone no importa que tipo de lista
+crtl k+c convierte en comentario lo seleccionado
+Si les queda desordenado, apreten click derecho y eligen format document
+sino alt shif f
+para poder bajar de linea sin que se modifique el código apretas CTRL+ENTER
+pie de pagina etiqueta <footer>
+en html existen 2 tipos de elementos
+elementos en linea y en bloque
+la etiqueta en bloque por defaul seria <div>
+en linea por default seria <span>
+la diferencia es que los elementos en bloque ocupan 100% el ancho de la pantalla mas alla del ancho de su contenido
+y los elementos en linea ocupan el ancho de su contenido

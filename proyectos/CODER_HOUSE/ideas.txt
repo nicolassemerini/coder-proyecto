@@ -1,0 +1,6 @@
+IDEA PRINCIPAL GESTIONAR NEGOCIO
+app citas
+app paseo bici
+app deporte
+app cuestionar cosas
+algun juego adictivo

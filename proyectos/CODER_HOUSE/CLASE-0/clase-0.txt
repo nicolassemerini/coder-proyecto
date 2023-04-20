@@ -1,0 +1,6 @@
+CLASE 1 Programacion
+
+el primer archivo que creamos se tiene que llamar index
+HTML5
+comando comentario <!-- -->
+
