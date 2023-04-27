@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-color: rgb(138, 132, 146);
+}
+.menu li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border: 3px solid blue;
+    padding: 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    border-radius: 20px;
+    
+    text-transform: uppercase;
+}
+
+#header-principal{
+    background-color: rgb(250, 247, 97);
+padding:20px 10px;
+margin:30px 20px;
+}
+.orejano{
+    color: red;
+    font-size:50px;
+    font-style: inherit;
+}
+.foto  {
+    position: relative;
+    margin: 20px 0px 20px 20%;
+    border-style:outset 
+    
+
+}
+.dueños{
+    font-style: italic;
+    color:black;
+    font-size: 25px;
+    margin-bottom:30px;
+    padding-top: 50px;
+}
+.logo{
+    margin-top: -20px;
+    margin-left:85%;
+    position: absolute;
+    height:283px
+}
+.pie-pagina li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+.pie-pagina a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border: 3px solid black;
+    padding: 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+
+
+.foto2{
+    position: relative;
+    width:40%;
+    height: 500px;
+    float: left;
+    border: 0.5px solid black;
+    margin-left: 5%;
+}
+.descripcion{
+    position: relative;
+    width:40%;
+    height: 500px;
+     font-size: 40px;
+     float: left;
+     background-color: rgb(118, 238, 212);
+     border: 0.5px solid black;
+     margin-left: 5%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.foto3{
+    position: relative;
+    width:40%;
+    height: 500px;
+    float: left;
+   border: 0.5px solid black;
+   margin-left: 5%;
+   
+
+}
+.descripcion-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 40px;
+    width:40%;
+    height: 500px;
+    float: left;
+    background-color: rgb(118, 238, 212);
+    border: 0.5px solid black;
+    margin-left: 5%;
+
+
+}
